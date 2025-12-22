@@ -8,7 +8,7 @@ This directory contains all Jupyter notebooks for the Multi-Agent Reinforcement 
 
 | # | Notebook | Topics | Status |
 |---|----------|--------|--------|
-| 01 | [Introduction to RL](01_introduction_to_rl.ipynb) | RL basics, bandits, exploration-exploitation | 🔲 Coming Soon |
+| 01 | [Introduction to RL](01_introduction_to_rl.ipynb) | RL basics, bandits, exploration-exploitation | ✅ Ready |
 | 02 | [MDPs and Value Methods](02_mdps_and_value_methods.ipynb) | MDPs, Bellman equations, Q-learning, SARSA | 🔲 Coming Soon |
 | 03 | [Policy Gradient Methods](03_policy_gradient_methods.ipynb) | REINFORCE, Actor-Critic, A2C | 🔲 Coming Soon |
 | 04 | [Introduction to Multi-Agent](04_introduction_to_multi_agent.ipynb) | Multi-agent systems, game theory basics | 🔲 Coming Soon |
@@ -62,53 +62,59 @@ Each notebook follows a consistent structure:
 Before starting the notebooks, ensure you have:
 
 1. Installed all dependencies:
-   ```bash
+   
+
+```bash
    pip install -r ../requirements.txt
    ```
 
 2. Verified your setup:
-   ```bash
+   
+
+```bash
    python ../test_setup.py
    ```
 
 3. Started Jupyter:
-   ```bash
+   
+
+```bash
    jupyter notebook
    ```
 
 ## 📖 Additional Resources
 
-- **Course Outline**: [`../docs/COURSE_OUTLINE.md`](../docs/COURSE_OUTLINE.md) - Detailed course structure
-- **Setup Guide**: [`../docs/SETUP_GUIDE.md`](../docs/SETUP_GUIDE.md) - Installation help
-- **Syllabus**: [`../docs/SYLLABUS.md`](../docs/SYLLABUS.md) - Course syllabus
-- **Instructor Guide**: [`../docs/INSTRUCTOR_GUIDE.md`](../docs/INSTRUCTOR_GUIDE.md) - Teaching notes
+* **Course Outline**: [`../docs/COURSE_OUTLINE.md`](../docs/COURSE_OUTLINE.md) - Detailed course structure
+* **Setup Guide**: [`../docs/SETUP_GUIDE.md`](../docs/SETUP_GUIDE.md) - Installation help
+* **Syllabus**: [`../docs/SYLLABUS.md`](../docs/SYLLABUS.md) - Course syllabus
+* **Instructor Guide**: [`../docs/INSTRUCTOR_GUIDE.md`](../docs/INSTRUCTOR_GUIDE.md) - Teaching notes
 
 ## 💡 Tips for Success
 
-- **Take Notes**: Annotate cells with your observations
-- **Run Everything**: Execute cells to see outputs
-- **Break Things**: Experiment and debug errors
-- **Ask Questions**: Use discussions/issues for help
-- **Share**: Contribute improvements back
+* **Take Notes**: Annotate cells with your observations
+* **Run Everything**: Execute cells to see outputs
+* **Break Things**: Experiment and debug errors
+* **Ask Questions**: Use discussions/issues for help
+* **Share**: Contribute improvements back
 
 ## 🔧 Troubleshooting
 
 Common issues and solutions:
 
-- **Kernel crashes**: Reduce batch sizes, restart kernel
-- **Import errors**: Check environment activation, reinstall packages
-- **Slow training**: Reduce environment complexity, use GPU
-- **Plot not showing**: Run `%matplotlib inline` at notebook start
+* **Kernel crashes**: Reduce batch sizes, restart kernel
+* **Import errors**: Check environment activation, reinstall packages
+* **Slow training**: Reduce environment complexity, use GPU
+* **Plot not showing**: Run `%matplotlib inline` at notebook start
 
 For more help, see the [Setup Guide](../docs/SETUP_GUIDE.md).
 
 ## 🤝 Contributing
 
 Found an error? Have a suggestion? We welcome:
-- Bug reports
-- Clarification requests
-- Exercise additions
-- Code improvements
+* Bug reports
+* Clarification requests
+* Exercise additions
+* Code improvements
 
 Please open an issue or submit a pull request!
 
